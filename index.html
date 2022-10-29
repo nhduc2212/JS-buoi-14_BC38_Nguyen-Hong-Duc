@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <!-- EXERCISE 1 -->
+    <section class="integer-sorter">
+      <header class="exercise_1"><h1>----- EXERCISE 1 -----</h1></header>
+      <div class="integer-input">
+        <h2>Please type in the string of numbers that you are wishing to arrange</h2>
+        <input
+          id="integer-sorter-num1"
+          type="number"
+          placeholder="type the 1st integer"
+        />
+        <input
+          id="integer-sorter-num2"
+          type="number"
+          placeholder="type the 2nd integer"
+        />
+        <input
+          id="integer-sorter-num3"
+          type="number"
+          placeholder="type the 3rd integer"
+        />
+        <button id="sort-integer" onclick="sortInteger()">Sort!!!</button>
+      </div>
+      <div class="integer-result" id="integer-result">
+        <p>The ascending order is:</p>
+        <span id="integer-result-nums"></span>
+      </div>
+    </section>
+    <!-- EXERCISE 1 END -->
+
+    <!-- EXERCISE 2 -->
+    <section class="greeting-user">
+      <header class="exercise_2"><h1>----- EXERCISE 2 -----</h1></header>
+      <div class="greeting-input">
+        <h2>Hú à diu?</h2>
+        <select
+          name="Hú à dìu"
+          id="userName"
+          aria-placeholder="Please tell me your username"
+        >
+          <option value="B">Bố</option>
+          <option value="M">Mẹ</option>
+          <option value="A">Anh trai</option>
+          <option value="E">Em gái</option>
+        </select>
+        <button id="btnGreeting" onclick="greetingUser()">Confirm</button>
+      </div>
+      <div class="greeting-result" id="greeting-result">
+        <h1>
+          GREETING!!! HOW MAY I HELP YOU TODAY,
+          <span id="userName-result"></span>!
+        </h1>
+      </div>
+    </section>
+    <!-- EXERCISE 2 END -->
+
+    <!-- EXERCISE 3 -->
+    <section class="odd-even">
+      <header class="exercise_3"><h1>----- EXERCISE 3 -----</h1></header>
+      <div class="integer-odd-even-input">
+        <h2>Please type in 3 integers</h2>
+        <input
+          id="integer-odd-even-num1"
+          type="number"
+          placeholder="type the 1st integer"
+        />
+        <input
+          id="integer-odd-even-num2"
+          type="number"
+          placeholder="type the 2nd integer"
+        />
+        <input
+          id="integer-odd-even-num3"
+          type="number"
+          placeholder="type the 3rd integer"
+        />
+      </div>
+      <button id="btnOddEven" onclick="oddEven()">Submit</button>
+      <div class="integer-odd-even-result" id="integer-odd-even-result">
+        <h2>
+          There are <span id="odd-num"></span> odd <span id="odd-s"></span> and
+          <span id="even-num"></span> even <span id="even-s"></span>
+        </h2>
+      </div>
+    </section>
+    <!-- EXERCISE 3 END -->
+
+    <!-- EXERCISE 4 -->
+    <section class="Triangle_checking">
+<header class="exercise_4"> 
+<h1>----- EXERCISE 4 -----
+
+</h1>
+</header>
+<div class="triangle-checker-input">
+  <h2>Please type in the measurements of your triangle</h2>
+  <input type="number" id="firstEdge" placeholder="first edge (in centimeter)">
+  <input type="number" id="secondEdge" placeholder="second edge (in centimeter)">
+  <input type="number" id="thirdEdge" placeholder="third edge (in centimeter)">
+</div>
+<button onclick="triangleTypeCheck()" id="triangle-check">Check!</button>
+
+<div class="triangle-checker-result" id="triangle-checker-result">
+ <p id="triangle-checker-result-invalid">Your measurements are not valid! Please double-check your input!</p> 
+<p id="triangle-checker-result-valid">Your triangle is 
+<span id="triangle-checker-final-result"></span></p>
+
+</div>
+
+
+    </section>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

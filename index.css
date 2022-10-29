@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 5px auto;
+  width: fit-content;
+}
+
+.integer-sorter .integer-input {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  margin-top: 20px;
+  margin: auto;
+  width: fit-content;
+}
+#integer-sorter-num1,
+#integer-sorter-num2,
+#integer-sorter-num3 {
+  display: block;
+}
+
+.integer-sorter .integer-result {
+  visibility: hidden;
+  margin: auto;
+  width: fit-content;
+  margin-top: 10px;
+}
+
+.greeting-user {
+  margin: 10px;
+}
+
+.greeting-user .greeting-input {
+  margin: auto;
+  width: fit-content;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.greeting-user .greeting-result {
+  visibility: hidden;
+  margin: auto;
+  width: fit-content;
+}
+
+.integer-odd-even-input {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  margin-top: 20px;
+  margin: auto;
+  width: fit-content;
+}
+.integer-odd-even-input h2{
+  text-align: center;
+}
+
+.odd-even button {
+  margin: auto;
+  text-align: center;
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+}
+
+#integer-odd-even-result {
+  visibility: hidden;
+  margin: auto;
+  width: fit-content;
+}
+
+.Triangle-checking{
+  margin-top: 20px;
+
+}
+
+.Triangle_checking button{
+margin: auto;
+margin-top: 5px;
+width: fit-content;
+display: block;
+}
+
+.triangle-checker-input{
+  margin: auto;
+  width: fit-content;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  margin-top: 20px;
+}
+
+
+.triangle-checker-result{
+  margin: 0px auto;
+  margin-top: 10px;
+  width: fit-content;
+}
+
+.triangle-checker-result{
+  visibility: hidden;
+}
+
+
+.triangle-checker-result #triangle-checker-result-invalid{
+  visibility: hidden;
+  margin: auto;
+}
+
+.triangle-checker-result #triangle-checker-result-valid{
+  visibility: hidden;
+  margin: auto;
+}
